@@ -17,7 +17,7 @@ double getAverage(vector <int> numbers){
     for(int i = 0 ;i<numbers.size();i++){
         sum += numbers[i];
     }
-    avg =(double) sum / numbers.size();
+    avg = (double)sum/numbers.size();
     return avg ;
 }
 
