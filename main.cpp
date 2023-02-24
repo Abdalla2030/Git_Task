@@ -10,7 +10,6 @@ int  getSum(vector <int> numbers){
     return sum ;
 }
 
-
 int getMin(vector <int> numbers){
     int mn = INT_MAX ;
     for(int i = 0 ;i<numbers.size();i++){
@@ -20,8 +19,7 @@ int getMin(vector <int> numbers){
 }
 
 
-int main()
-{
+int main(){
     vector <int> numbers = {1,2,3,4,5,6,7,8,9,10};
     cout<<getSum(numbers)<<endl;
     cout<<getMin(numbers)<<endl;
